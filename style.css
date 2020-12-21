@@ -17,3 +17,15 @@ textarea{
     margin:auto ;
     text-align: center;
 }
+#inputbtn{
+  padding:0.5rem 1.2rem;
+ margin:1rem auto ;
+}
+#output1{
+    width: 60%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin:auto ;
+    text-align: center;
+}
