@@ -10,7 +10,7 @@ function play(){
 }
 
 function checkprime(input){
-    return input;
+    
 }
 
 inpbutton.addEventListener("click",play);
