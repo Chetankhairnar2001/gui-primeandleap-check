@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+    *{
+    box-sizing: border-box;
+    }
+
+body{
+   margin-top: 2rem;
+    font-family: 'Nerko One', cursive;
+    }
+
+textarea{
+    width: 60%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin:auto ;
+    text-align: center;
+}
