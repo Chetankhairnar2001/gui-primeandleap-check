@@ -5,7 +5,7 @@
     }
 
 body{
-   margin-top: 2rem;
+   margin: 1rem;
     font-family: 'Nerko One', cursive;
     }
 
@@ -22,9 +22,11 @@ textarea{
     background-color: rgb(212, 198, 212);
 }
  #nametext1{
+    background-color: rgb(183, 172, 241);
     height: 8vh;
-    width: 40%;
-    display: inline;
+    width: 85%;
+    margin: auto;
+    display: inline-block;
     overflow: hidden;
 }
 #inputbtn {
@@ -50,17 +52,16 @@ textarea{
   }
 
   #namebtn{
-    display: inline;
-    margin-bottom: 2rem;
+    display: inline-block;
+    margin: auto;
     padding: 0.5rem 1rem;
     font-size:1.4rem;
     cursor: pointer;
     text-align: center;
     color: white;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    background-color: #2cd7ee;
+    border: 1px solid black ;
+    border-radius: 1rem;
   }
 
 #output1{
