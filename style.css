@@ -9,6 +9,7 @@ body{
     font-family: 'Nerko One', cursive;
     }
 
+
 textarea{
     width: 60%;
     height: 14vh;
@@ -17,16 +18,53 @@ textarea{
     margin:auto ;
     font-size: 1.4rem;
     text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(212, 198, 212);
 }
-#inputbtn{
-  padding:0.5rem 1.2rem;
- margin:1rem auto ;
- display: flex;
- cursor: pointer;
- border-radius: 0.7rem;
+ #nametext1{
+    height: 8vh;
+    width: 40%;
+    display: inline;
+    overflow: hidden;
 }
+#inputbtn {
+    display: flex;
+    margin:1rem auto ;
+    padding: 1rem;
+    font-size:1.4rem;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  #inputbtn:hover {background-color: #3e8e41}
+  
+  #inputbtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0.5rem #666;
+    transform: translateY(0.5rem);
+  }
+
+  #namebtn{
+    display: inline;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    font-size:1.4rem;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
 #output1{
-    width: 60%;
+    width: 85%;
     height: 13vh;
     display: block;
     padding: 1rem;
@@ -35,9 +73,10 @@ textarea{
     text-align: center;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: rgb(223, 134, 134);
 }
 #output2{
-    width: 60%;
+    width: 85%;
     height: 13vh;
     display: block;
     padding: 1rem;
@@ -46,4 +85,10 @@ textarea{
     text-align: center;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: rgb(196, 238, 168);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
 }
