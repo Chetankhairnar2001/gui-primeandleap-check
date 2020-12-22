@@ -1,3 +1,6 @@
+var nametextarea=document.querySelector("#nametext1");
+var namebutton=document.querySelector("#namebtn");
+var namepara=document.querySelector("#namepara");
 var input1=document.querySelector("#inputtext1");
 var output1=document.querySelector("#output1");
 var output2=document.querySelector("#output2");
@@ -28,4 +31,9 @@ function leapYear(input){
      return "Born In Non-Leap year";
 }
 
+function nameit(){
+    namepara.innerText=nametextarea.value+" Welcome to The Game";
+}
+
 inpbutton.addEventListener("click",play);
+namebutton.addEventListener("click",nameit);

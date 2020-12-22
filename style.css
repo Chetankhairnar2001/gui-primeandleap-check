@@ -9,6 +9,18 @@ body{
     font-family: 'Nerko One', cursive;
     }
 
+    .bdaypic{
+        background-image: url(images/bday.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        right: 0; 
+        top: 0;
+         opacity: 0.8;
+        z-index:-1 ;     
+    }
 
 textarea{
     width: 60%;
@@ -55,7 +67,7 @@ textarea{
     display: inline-block;
     margin: auto;
     padding: 0.5rem 1rem;
-    font-size:1.4rem;
+    font-size:1rem;
     cursor: pointer;
     text-align: center;
     color: white;
@@ -65,24 +77,24 @@ textarea{
   }
 
 #output1{
-    width: 85%;
+    width: 80%;
     height: 13vh;
     display: block;
     padding: 1rem;
     font-size: 1.5rem;
-    margin:2rem auto ;
+    margin:auto ;
     text-align: center;
     border: 1px solid black;
     border-radius: 1rem;
     background-color: rgb(223, 134, 134);
 }
 #output2{
-    width: 85%;
+    width: 80%;
     height: 13vh;
     display: block;
     padding: 1rem;
     font-size: 1.5rem;
-    margin:2rem auto ;
+    margin:auto ;
     text-align: center;
     border: 1px solid black;
     border-radius: 1rem;
@@ -92,4 +104,9 @@ textarea{
 .container{
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.margit{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
