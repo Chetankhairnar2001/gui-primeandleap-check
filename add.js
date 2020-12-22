@@ -8,20 +8,20 @@ var inpbutton=document.querySelector("#inputbtn");
 
 function play(){
     var value=input1.value.split("/");
-    output1.innerText=checkprime(value[0]);
-    output2.innerText=leapYear(value[2]);
+    output1.innerText=nametextarea.value+" you are born on "+checkprime(value[0]);
+    output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);
 }
 
 function checkprime(input){
     if(input==1){
-        return "Non-Prime No";
+        return "Non-Prime Day";
     }
     for(var i=2;i<=input/2;i++){
         if(input % i===0){
-            return "Prime No";
+            return "Non-Prime Day";
         }
     }
-    return "Non-Prime No";
+    return "Prime Day";
 }
 
 function leapYear(input){
