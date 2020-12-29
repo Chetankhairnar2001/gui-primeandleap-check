@@ -8,11 +8,11 @@ var inpbutton=document.querySelector("#inputbtn");
 var imagegif=document.querySelector("#image");
 
 function play(){  
-    imagegif.innerHTML="<img src='images/loading.gif'>"; 
+    // imagegif.innerHTML="<img src='images/loading.gif'>"; 
     var value=input1.value.split("/");
     setTimeout(function (){   //as random starts with 0 so we add +1 so it will shown from 1
     output1.innerText=nametextarea.value+" you are born on "+checkprime(value[0]);
-    output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);},2000);
+    output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);},800);
 }
 
 function checkprime(input){
