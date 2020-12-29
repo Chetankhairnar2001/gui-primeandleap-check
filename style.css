@@ -28,7 +28,7 @@ body{
     }
 
 textarea{
-    width: 60%;
+    width: 80%;
     height: 14vh;
     display: block;
     padding: 1rem;
@@ -99,7 +99,7 @@ textarea{
   }
 
 #output1{
-    width: 75%;
+    width: 80%;
     height: 13vh;
     display: block;
     padding: 1rem;
@@ -111,7 +111,7 @@ textarea{
     background-color: rgb(223, 134, 134);
 }
 #output2{
-    width: 75%;
+    width: 80%;
     height: 13vh;
     display: block;
     padding: 1rem;
