@@ -64,6 +64,18 @@ textarea{
     overflow: hidden;
 }
 
+input{
+    margin:1rem auto ;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 #namepara{
     color: rgb(213, 243, 78);
     margin:1rem auto;
@@ -177,4 +189,17 @@ a{
     padding-left: 1rem;
     padding-right: 1rem;
     color: rgb(109, 111, 136);
+}
+
+#namedate{
+    width: 80%;
+    height: 8vh;
+    display: block;
+    padding: 1rem;
+    margin:auto ;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 1rem;
+    border:1px solid red;
+    background-color: rgb(207, 154, 207);
 }
