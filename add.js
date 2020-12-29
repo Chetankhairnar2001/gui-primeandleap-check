@@ -2,17 +2,36 @@ var nametextarea=document.querySelector("#nametext1");
 var namebutton=document.querySelector("#namebtn");
 var namepara=document.querySelector("#namepara");
 var input1=document.querySelector("#inputtext1");
+var luckyno=document.querySelector("#inputtext2");
 var output1=document.querySelector("#output1");
 var output2=document.querySelector("#output2");
+var output3=document.querySelector("#output3");
 var inpbutton=document.querySelector("#inputbtn");
 var imagegif=document.querySelector("#image");
 
 function play(){  
-    // imagegif.innerHTML="<img src='images/loading.gif'>"; 
     var value=input1.value.split("/");
     setTimeout(function (){   //as random starts with 0 so we add +1 so it will shown from 1
     output1.innerText=nametextarea.value+" you are born on "+checkprime(value[0]);
-    output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);},800);
+    output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);
+    output3.innerText=nametextarea.value+" is "+lucky(value[0]+value[1]+value[2]);
+    },800);
+}
+
+function lucky(input){
+    var sum=0;
+    while(input!=0){
+    sum+=Math.floor(input%10);
+    input=input/10;
+    console.log(sum);
+    }
+    
+    
+    var no=luckyno.value;
+    if(sum%no ==0)
+    return "yes";
+    else
+    return "no";
 }
 
 function checkprime(input){
