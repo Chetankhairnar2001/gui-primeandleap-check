@@ -153,7 +153,16 @@ img{
 
 footer{
     text-align: center;
+    color: rgb(73, 43, 73);
     padding-top: 0.3rem;
+    font-size: 1.3rem;
     background-color: yellow;
     margin:0rem;
+    border-radius: 0.7rem;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
