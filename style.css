@@ -5,9 +5,13 @@
     }
 
 body{
-   margin: 1rem auto;
+  
     font-family: 'Nerko One', cursive;
-    width: 70%;
+   
+    }
+    .content{
+        margin: 1rem auto;
+        width: 70%;
     }
 
     .bdaypic{
@@ -145,4 +149,11 @@ img{
     margin:auto;
     color: white;
     font-size: 1.3rem;
+}
+
+footer{
+    text-align: center;
+    padding-top: 0.3rem;
+    background-color: yellow;
+    margin:0rem;
 }

@@ -14,7 +14,7 @@ function play(){
     setTimeout(function (){   //as random starts with 0 so we add +1 so it will shown from 1
     output1.innerText=nametextarea.value+" you are born on "+checkprime(value[0]);
     output2.innerText=nametextarea.value+" you are "+leapYear(value[2]);
-    output3.innerText=nametextarea.value+" is "+lucky(value[0]+value[1]+value[2]);
+    output3.innerHTML=lucky(value[0]+value[1]+value[2]);
     },800);
 }
 
@@ -23,15 +23,12 @@ function lucky(input){
     while(input!=0){
     sum+=Math.floor(input%10);
     input=input/10;
-    console.log(sum);
     }
-    
-    
     var no=luckyno.value;
     if(sum%no ==0)
-    return "yes";
+    return "<img src='images/yes.gif'>";
     else
-    return "no";
+    return "<img src='images/no.gif'>";
 }
 
 function checkprime(input){
