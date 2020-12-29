@@ -11,8 +11,14 @@ body{
     }
     .content{
         margin: 1rem auto;
-        width: 70%;
+        max-width:70% ;
     }
+   @media (max-width: 426px ) {
+    .content{
+        margin: 1rem auto;
+        max-width:95% ;
+    }
+   }
 
     .bdaypic{
         background-image: url(images/bday.jpg);
