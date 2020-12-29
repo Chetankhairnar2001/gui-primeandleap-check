@@ -5,7 +5,7 @@
     }
 
 body{
-  
+    margin: 0rem;
     font-family: 'Nerko One', cursive;
    
     }
@@ -17,6 +17,11 @@ body{
     .content{
         margin: 1rem auto;
         max-width:95% ;
+    }
+    #output3{
+        max-width: 80%;
+        max-height: fit-content;
+        margin:auto ;
     }
    }
 
@@ -171,4 +176,5 @@ a{
     text-decoration: none;
     padding-left: 1rem;
     padding-right: 1rem;
+    color: rgb(109, 111, 136);
 }
