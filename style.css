@@ -23,9 +23,9 @@ body{
     }
 
 textarea{
-    /* width: 60%; */
+    width: 60%;
     height: 14vh;
-    display: flex;
+    display: block;
     padding: 1rem;
     margin:auto ;
     font-size: 1.4rem;
@@ -44,14 +44,15 @@ textarea{
 
 #namepara{
     color: rgb(213, 243, 78);
+    text-align: center;
     font-size: 2.3rem;
     text-shadow:2px 2px #ff0000;
-    animation:animate 3s 2;
+    animation:animate 5s 3;
 }
 @keyframes animate{
     from {
         margin-left: -100%;
-        width: 300%; 
+        width: 100%; 
       }
     
       to {
@@ -129,4 +130,10 @@ textarea{
 .margit{
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+img{
+    border-radius: 3rem;
+    margin: auto;
+    display: flex;
 }
