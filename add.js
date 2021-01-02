@@ -8,8 +8,10 @@ var output2=document.querySelector("#output2");
 var output3=document.querySelector("#output3");
 var inpbutton=document.querySelector("#inputbtn");
 var imagegif=document.querySelector("#image");
+var displayit=document.querySelector(".displayit");
 
 function play(){  
+    displayit.style.visibility="visible";
     var value=input1.value.split("-");
     console.log(value)
     setTimeout(function (){   //as random starts with 0 so we add +1 so it will shown from 1
@@ -52,6 +54,7 @@ function leapYear(input){
 }
 
 function nameit(){
+    alert("Your Data is kept Private, It will not be stored ")
     namepara.innerText=nametextarea.value+" Welcome to The Game";
 }
 

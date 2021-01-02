@@ -183,6 +183,7 @@ footer{
     background-color: yellow;
     margin:0rem;
     border-radius: 0.7rem;
+    position: relative;
 }
 
 a{
@@ -204,3 +205,7 @@ a{
     border:1px solid red;
     background-color: rgb(207, 154, 207);
 }
+
+.displayit{
+    visibility:hidden;
+  }
