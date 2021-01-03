@@ -19,9 +19,12 @@ body{
         max-width:95% ;
     }
     #output3{
-        max-width: 80%;
-        max-height: fit-content;
+        max-width: 84%;
+        /* max-height: fit-content; */
         margin:auto ;
+    }
+    img{
+        max-width: 97%;
     }
    }
 
