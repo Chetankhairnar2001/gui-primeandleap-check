@@ -155,11 +155,6 @@ input{
     grid-template-columns: auto auto;
 }
 
-.containerit{
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-
 .margit{
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -179,6 +174,8 @@ img{
 }
 
 footer{
+    height: 10vh;
+    width: 100%;
     text-align: center;
     color: rgb(73, 43, 73);
     padding-top: 0.3rem;
@@ -186,7 +183,8 @@ footer{
     background-color: yellow;
     margin:0rem;
     border-radius: 0.7rem;
-    position: relative;
+    position: sticky;
+    bottom: 1px;
 }
 
 a{
